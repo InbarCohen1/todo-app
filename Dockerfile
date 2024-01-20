@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expose the port on which your application will run
-EXPOSE 8496
+EXPOSE 9285
 
 # Command to run your application
 CMD ["node", "matala3.js"]
